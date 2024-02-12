@@ -1,4 +1,4 @@
-/**
+/***
  * 
  * creating this pattern using react
  * <div id="parent">
@@ -23,7 +23,7 @@ const parent=React.createElement("div", {id: "parent"},[
     React.createElement("h1", {}, "I am H1 TAG"),
     React.createElement("h2", {}, "I am H2 TAG")
   ])
-] )
+])
 console.log(parent);
 
 const heading = React.createElement(
